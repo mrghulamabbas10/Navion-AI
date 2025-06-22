@@ -64,7 +64,7 @@ export default function Join() {
           variants={headingVariant}
           className="text-2xl sm:text-3xl md:text-4xl text-white"
         >
-          button2 font2 px-10 py-3 rounded-lg text-black text-xl
+         Instant DeFi Market Insights for Serious Traders
         </motion.h3>
 
         {/* Paragraph */}
