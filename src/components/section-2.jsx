@@ -59,7 +59,7 @@ export default function Section2() {
                         />
                     </motion.div>
 
-                    <a href="/dashboard">
+                    <a href="#">
                         <motion.button
                             variants={ textVariant }
                             custom={ 3 }
@@ -115,7 +115,7 @@ export default function Section2() {
                         />
                     </motion.div>
 
-                    <a href="/dashboard">
+                    <a href="#">
                         <motion.button
                             variants={ textVariant }
                             custom={ 3 }

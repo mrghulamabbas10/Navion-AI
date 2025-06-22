@@ -35,26 +35,29 @@ export default function ChartSection() {
         {
             img: '/images/chart-gif1.gif',
             colSpan: 'md:col-span-5',
-            heading: "Rapid Node Deployment",
-            para: "Launch AI nodes in just minutes with zero hassle."
+            heading: "",
+            para: ""
         },
         {
-            img: '/images/chart-dash.png',
+            img: '/images/tokensec.png',
             colSpan: 'md:col-span-7',
-            heading: "Seamless User Interface",
-            para: "Navigate a clean, intuitive platform built for speed and simplicity."
+            heading: "",
+            para: ""
         },
         {
             img: '/images/chart-dash2.png',
             colSpan: 'md:col-span-7',
-            heading: "Global Node Network",
-            para: "Access a decentralized grid of high-performance AI nodes anytime, anywhere."
+            heading: "OXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            para: "Contract Address",
+            buy:"Buy Now",
+            class:"button2 font2 px-10 py-2 w-fit rounded-lg text-black text-xl block",
+            link:"",
         },
         {
             img: '/images/chart-gif2.gif',
             colSpan: 'md:col-span-5',
-            heading: "Scalable & Rewarding",
-            para: "Unlock endless opportunities with scalable infrastructure and optimized performance."
+            heading: "",
+            para: ""
         },
     ];
 
@@ -73,20 +76,23 @@ export default function ChartSection() {
                         <motion.img
                             src={ card.img }
                             alt={ `chart-${idx}` }
-                            className="w-full h-[80vw] sm:h-[40vw] lg:h-[30vw] object-cover object-top"
+                            className="w-full md:h-full h-[50vw] object-cover object-top"
                             variants={ imageVariant }
                         />
                         <motion.div
                             className="p-6 sm:p-10 absolute z-20 bottom-0 space-y-3 bg-gradient-to-t from-black/80 to-transparent w-full"
                             variants={ textVariant }
                         >
-                            <h2 className="text-xl sm:text-2xl ">{ card.heading }</h2>
+                            <h2 className="text-sm sm:text-2xl ">{ card.heading }</h2>
                             <ShinyText
                                 text={ card.para }
                                 disabled={ false }
                                 speed={ 3 }
                                 className="custom-class"
                             />
+                            <a href={card.link} className={card.class}>
+                                {card.buy}
+                            </a>
                         </motion.div>
                     </motion.div>
                 )) }

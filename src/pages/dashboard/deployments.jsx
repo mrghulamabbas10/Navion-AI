@@ -5,7 +5,7 @@ import GPU from '../../components/icons/GPU';
 import Memory from '../../components/icons/Memory';
 import Slote from '../../components/icons/Slote';
 import Card from '../../components/icons/Card';
-import Dashboard from '../../components/icons/dashboard';
+import Dashboard from '../../components/icons#';
 import Leaderboard from '../../components/icons/Leaderboard';
 import Deployment from '../../components/icons/Deployment';
 import Staking from '../../components/icons/Staking';
@@ -14,10 +14,10 @@ import Profile from '../../components/icons/Profile';
 import Logout from '../../components/icons/Logout';
 
 const navLinks = [
-    { href: "/dashboard", label: "Dashboard", icon: <Dashboard /> },
-    { href: "/dashboard", label: "Leaderboard", icon: <Leaderboard /> },
-    { href: "/dashboard/deployments", label: "Deployments", icon: <Deployment /> },
-    { href: "/dashboard/profile", label: "Profile", icon: <Profile /> },
+    { href: "#", label: "Dashboard", icon: <Dashboard /> },
+    { href: "#", label: "Leaderboard", icon: <Leaderboard /> },
+    { href: "#/deployments", label: "Deployments", icon: <Deployment /> },
+    { href: "#/profile", label: "Profile", icon: <Profile /> },
 ];
 
 export default function DeploymentMain() {
@@ -61,7 +61,7 @@ export default function DeploymentMain() {
                                         <a
                                             key={ index }
                                             href={ link.href }
-                                            className={ `flex items-center gap-3 p-3 rounded-lg transition-colors ${link.href === "/dashboard/deployments"
+                                            className={ `flex items-center gap-3 p-3 rounded-lg transition-colors ${link.href === "#/deployments"
                                                 ? "text-white bg-gradient-to-r from-purple-600 to-pink-600"
                                                 : "text-gray-400 hover:text-white hover:bg-[#B0B0B01A]"
                                                 }` }
@@ -99,7 +99,7 @@ export default function DeploymentMain() {
                             <a
                                 key={ index }
                                 href={ link.href }
-                                className={ `flex items-center gap-3 p-3 rounded-lg transition-colors ${link.href === "/dashboard/deployments"
+                                className={ `flex items-center gap-3 p-3 rounded-lg transition-colors ${link.href === "#/deployments"
                                     ? "text-white bg-gradient-to-r from-purple-600 to-pink-600"
                                     : "text-gray-400 hover:text-white hover:bg-[#B0B0B01A]"
                                     }` }

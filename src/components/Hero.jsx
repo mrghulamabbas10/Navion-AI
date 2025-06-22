@@ -34,7 +34,7 @@ const imageZoomVariant = {
 
 export default function Hero() {
   return (
-    <div className="header h-full md:pt-[20vw] pt-[30vw] pb-[5vw] px-6">
+    <div className="header h-full md:pt-[20vw] pt-[52vw] md:pb-[10vw] pb-10 px-6">
       <div className="flex flex-col md:gap-8 gap-4 justify-center items-center text-center max-w-5xl mx-auto">
         {/* Heading */ }
         <motion.div
@@ -44,7 +44,7 @@ export default function Hero() {
           variants={ fadeUpVariant }
           custom={ 1 }
         >
-          <Text>Nodes Made Simple.</Text>
+          <Text>NAVION AI</Text>
         </motion.div>
 
         {/* BlurText Subheading */ }
@@ -56,7 +56,7 @@ export default function Hero() {
           custom={ 2 }
         >
           <BlurText
-            text="Decentralization Engineered for Speed and Control!"
+            text="Navigate DeFi with Precision"
             delay={ 150 }
             animateBy="words"
             direction="top"
@@ -65,31 +65,19 @@ export default function Hero() {
         </motion.div>
 
         {/* Button */ }
-        <a href="/dashboard">
+        <a href="#">
           <motion.button
             variants={ fadeUpVariant }
             custom={ 3 }
             initial="hidden"
             whileInView="visible"
             viewport={ { once: true } }
-            className="button2 font2 px-10 py-3 rounded-lg text-black text-xl"
+            className="button2 font2 px-10 py-3 rounded-lg text-black md:text-xl text-sm"
           >
             Get Started
           </motion.button>
         </a>
-
-        {/* Image */ }
-        <div>
-          <motion.img
-            src="/images/dashboord.png"
-            alt="Dashboard"
-            className="w-[90%] sm:w-[75%] lg:w-[65%] md:mt-20 mt-5 mx-auto rounded-xl shadow-xl"
-            initial="hidden"
-            whileInView="visible"
-            viewport={ { once: true } }
-            variants={ imageZoomVariant }
-          />
-        </div>
+ 
       </div>
     </div>
   );

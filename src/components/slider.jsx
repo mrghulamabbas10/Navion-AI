@@ -14,24 +14,24 @@ import Left from './icons/left';
 const items = [
     {
         id: '01',
-        title: 'AFFORDABLE COMPUTE',
+        title: 'Technical Analysis',
         img: '/images/feature-1.png',
         desc:
-            'Spend less time and money on infrastructure and more time on your business. Get more value from your GPU investment.',
+            'Real-time insights into token performance, wallet activity, and blockchain data.',
     },
     {
         id: '02',
-        title: 'DEPLOY NODES IN MINUTES',
+        title: 'Sentiment Analysis',
         img: '/images/feature-2.png',
         desc:
-            'Our platform is where complexity meets simplicity, providing a seamless interface for clients to tap into a global network of AI nodes.',
+            'Track market mood and narrative shifts across platforms in real time.',
     },
     {
         id: '03',
-        title: 'PAY-AS-YOU-GO PRICING',
+        title: 'Fundamental Analysis',
         img: '/images/feature-3.png',
         desc:
-            'Get real-time pricing and availability for your workloads. Pay only for what you use. No hidden fees.',
+            'Evaluate tokenomics and long-term value with CoinGecko-powered data.',
     },
 ];
 
@@ -67,7 +67,7 @@ const textVariant = {
 export default function Slider() {
     return (
         <div className="p-5 max-w-7xl mx-auto mt-[10vw]">
-            <h3 className='text-[#EE7C2C] text-center'>[ Core features ]</h3>
+            <h3 className='text-[#EE7C2C] text-center'>[ Core analysis]</h3>
             <motion.h1
                 variants={ textVariant }
                 custom={ 1 }

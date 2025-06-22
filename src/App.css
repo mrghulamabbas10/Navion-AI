@@ -98,7 +98,23 @@ body {
 }
 
 .header {
+  background-image: url("../public/images/header.gif");
+  z-index: 1;
+  overflow: hidden;
+  height: 50vw;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background-image: url("../public/images/header-bg.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 1; /* adjust if needed for transparency */
+  z-index: 2;
+  pointer-events: none; 
+  bottom: -6vw;
 }
 
 .about {
@@ -160,5 +176,8 @@ body {
   body,
   html {
     overflow-x: hidden;
+  }
+  .header{
+    height: 110vw;
   }
 }

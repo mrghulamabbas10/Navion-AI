@@ -50,7 +50,7 @@ export default function Navbar() {
         <div className='md:block hidden bg-black py-3 border-[#282828] rounded-full px-10'>
           <ul className='flex items-center gap-14'>
             { NAV_LINKS.map((item, index) => (
-              <li key={ index } className='font-semibold'>
+              <li key={ index } className='font-normal'>
                 <Link to={ item.linkPath }>{ item.name }</Link>
               </li>
             )) }
@@ -65,15 +65,15 @@ export default function Navbar() {
             <RiTelegram2Fill />
           </a>
           <a
-            href='https://x.com/Nobularsolana'
+            href=''
             className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'
           >
             <FaXTwitter />
           </a>
 
-          <a href='/dashboard'>
-            <button className='px-10 py-2 button1 rounded-full text-lg'>
-              Dapp
+          <a href='#'>
+            <button className='px-10 py-2 button2 rounded-full text-lg'>
+           Buy Now
             </button>
           </a>
 

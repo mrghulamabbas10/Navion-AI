@@ -52,7 +52,7 @@ const images = [
 ]
 
 
-export default function NodularSection() {
+export default function NavionAISection() {
     const sectionRef = useRef(null);
 
     const { scrollYProgress } = useScroll({
@@ -77,10 +77,10 @@ export default function NodularSection() {
             <div className="flex items-center md:text-start text-center md:justify-between md:flex-row flex-col gap-3 justify-center my-16 ">
                 <div>
                     <p className="text-sm text-orange-500 uppercase mb-2 tracking-wide">
-                        { `[How it works]` }
+                        { `[ what we plan ahead ]` }
                     </p>
                     <h2 className="text-2xl md:text-4xl mb-6 gradient-text font2">
-                        Step Inside Nodular: Revolutionizing <br /> GPU Node Management
+                     Navion Roadmap: Our Path Forward
                     </h2>
                 </div>
                 <div>
@@ -89,7 +89,7 @@ export default function NodularSection() {
                         custom={ 3 }
                         className="text-white btn font-light text-lg"
                     >
-                        <span className="text uppercase"> Get started</span>
+                        <span className="text uppercase"> JOIN COMMUNITY</span>
                         <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
                             <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
                         </svg>
@@ -109,8 +109,9 @@ export default function NodularSection() {
                             <img src={ item.img } alt="" className={ item.class } key={ idx } />
                         )) }
                         <motion.div variants={ textVariant } custom={ 2 }>
+                            <h2>Phase 1: Navion Core Launch</h2>
                             <ShinyText
-                                text="Tasks are executed in parallel across multiple nodes, significantly speeding up computation times and optimizing resource usage for maximum performance."
+                                text="Public AI chat release with live technical charts, wallet/contract lookups, and integrated token dashboards."
                                 disabled={ false }
                                 speed={ 3 }
                                 className="custom-class"
@@ -128,8 +129,9 @@ export default function NodularSection() {
                             <img src={ item.img } alt="" className={ item.class } key={ idx } />
                         )) }
                         <motion.div variants={ textVariant } custom={ 2 }>
+                            <h2>Phase 2: Sentiment Engine Activation</h2>
                             <ShinyText
-                                text="Clients submit their computational tasks to Nodular, where each task is immediately distributed across a secure, high-performance network of AI nodes designed to handle demanding workloads efficiently."
+                                text="Real-time token sentiment tracking, trend alerts, deep research tools, and filtered sentiment mapping."
                                 disabled={ false }
                                 speed={ 3 }
                                 className="custom-class"
@@ -147,8 +149,9 @@ export default function NodularSection() {
                             <img src={ item.img } alt="" className={ item.class } key={ idx } />
                         )) }
                         <motion.div variants={ textVariant } custom={ 2 }>
+                            <h2>Phase 3: Fundamental Data Rollout</h2>
                             <ShinyText
-                                text="By leveraging the power of the L1 Blockchain, all computations are secured with immutable, verifiable records, ensuring that every processing step is transparent and tamper-proof."
+                                text="MCP-powered fundamental analysis with supply metrics, market trends, and price-fundamentals tracking."
                                 disabled={ false }
                                 speed={ 3 }
                                 className="custom-class"
@@ -166,8 +169,9 @@ export default function NodularSection() {
                             <img src={ item.img } alt="" className={ item.class } key={ idx } />
                         )) }
                         <motion.div variants={ textVariant } custom={ 2 }>
+                            <h2>Phase 4: Portfolio Tools & Alerts</h2>
                             <ShinyText
-                                text="Once computations are complete, the results undergo verification to confirm accuracy and integrity. This process guarantees trustworthy outputs before they are delivered back to clients."
+                                text="Watchlists, live alerts on price and sentiment, smart wallet summaries, and read-only multi-chain wallet tracking."
                                 disabled={ false }
                                 speed={ 3 }
                                 className="custom-class"
@@ -185,8 +189,9 @@ export default function NodularSection() {
                             <img src={ item.img } alt="" className={ item.class } key={ idx } />
                         )) }
                         <motion.div variants={ textVariant } custom={ 2 }>
+                            <h2>Phase 5: Ecosystem Expansion</h2>
                             <ShinyText
-                                text="All verified results are encrypted to maintain client confidentiality and are promptly returned, ensuring data privacy without compromising on speed or reliability."
+                                text="Multi-chain support, custom AI queries, API access for pros, and community plug-ins with analytics dashboards."
                                 disabled={ false }
                                 speed={ 3 }
                                 className="custom-class"

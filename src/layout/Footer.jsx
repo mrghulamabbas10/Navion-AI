@@ -18,10 +18,10 @@ export default function Footer() {
           {/* Left Section */ }
           <div className="space-y-5 max-w-xs">
             <div  >
-              <img src="/images/logo.png" alt="Nodular Logo" className="md:w-[15vw] w-[40vw]" />
+              <img src="/images/logo.png" alt="Navion AI Logo" className="md:w-[15vw] w-[40vw]" />
             </div>
-            <p className="msd:text-base text-sm text-gray-400">
-              Nodular: Powering the Future of Decentralized Nodes
+            <p className="msd:text-base text-sm text-gray-400"> 
+              Navion AI is a real-time market intelligence platform built for the fast-moving world of Web3.
             </p>
           </div>
 
@@ -35,7 +35,7 @@ export default function Footer() {
               <a href="#" className="hover:text-white">How We Work</a>
             </nav>
             <div className="text-center mt-6 text-xs md:block hidden">
-              © Copyright 2025 - <span className="text-purple-400">Nodular</span>. All Rights Reserved.
+              © Copyright 2025 - <span className="text-purple-400">Navion AI</span>. All Rights Reserved.
             </div>
           </div>
 
@@ -46,13 +46,13 @@ export default function Footer() {
               <a href="" className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'>
                 <RiTelegram2Fill />
               </a>
-              <a href="https://x.com/Nobularsolana" className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'>
+              <a href="" className='p-3 rounded-full bg-black hover:bg-[#FF6F6F] transition-all duration-150 border border-[#282828]'>
                 <FaXTwitter />
               </a>
             </div>
           </div>
           <div className=" mx-auto mt-6 text-xs md:hidden block text-center">
-            © Copyright 2025 - <span className="text-purple-400">Nodular</span>. All Rights Reserved.
+            © Copyright 2025 - <span className="text-purple-400">Navion AI</span>. All Rights Reserved.
           </div>
         </div>
       </motion.footer>

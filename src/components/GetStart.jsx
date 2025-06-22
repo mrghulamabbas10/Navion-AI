@@ -66,7 +66,7 @@ export default function GetStart() {
                     variants={ textVariant }
                     custom={ 1 }
                 >
-                    Build and deploy <br /> AI models
+               Instant DeFi Market Insights <br /> for Serious Traders
                 </motion.h2>
 
                 {/* Paragraph */ }
@@ -75,18 +75,17 @@ export default function GetStart() {
                     variants={ textVariant }
                     custom={ 2 }
                 >
-                    Develop and train AI models and applications using NodeAI’s decentralized <br />
-                    GPU network. Tailored for individuals and enterprises.
+                   Navion delivers real-time price action, sentiment shifts, and fundamental context—empowering you to trade smarter and faster.
                 </motion.p>
 
                 {/* Button */ }
-                <a href="/dashboard">
+                <a href="#">
                     <motion.button
                         variants={ textVariant }
                         custom={ 3 }
                         className="text-white btn font-light text-lg mx-auto md:w-[20rem]"
                     >
-                        <span className="text uppercase">Get started now</span>
+                        <span className="text uppercase">Get started</span>
                         <svg
                             height="24"
                             width="24"
