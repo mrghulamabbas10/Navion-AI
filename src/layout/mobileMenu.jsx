@@ -100,7 +100,7 @@ export default function MobileMenu({ setMenuShow }) {
           </motion.a>
 
           <motion.a variants={itemVariants} href="#">
-            <button className="px-10 py-2 button2 rounded-full text-lg">
+            <button className="px-10 py-2 button1 rounded-full text-lg">
               Buy Now
             </button>
           </motion.a>

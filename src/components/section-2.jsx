@@ -63,7 +63,7 @@ export default function Section2() {
                         <motion.button
                             variants={ textVariant }
                             custom={ 3 }
-                            className="button2 font2 px-6 py-3 rounded-xl text-black text-lg font-semibold"
+                            className="button1 font2 px-6 py-3 rounded-xl text-black text-lg font-semibold"
                         >
                             Get Started
                         </motion.button>
@@ -119,7 +119,7 @@ export default function Section2() {
                         <motion.button
                             variants={ textVariant }
                             custom={ 3 }
-                            className="button2 font2 px-6 py-3 rounded-xl text-black text-lg font-semibold"
+                            className="button1 font2 px-6 py-3 rounded-xl text-black text-lg font-semibold"
                         >
                             Get Started
                         </motion.button>

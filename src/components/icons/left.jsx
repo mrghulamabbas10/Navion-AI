@@ -17,7 +17,7 @@ export default function Left() {
             </g>
             <defs>
                 <linearGradient id="paint0_linear_1028_372" x1="0" y1="30" x2="60" y2="30" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#EE7C2C" />
+                    <stop stop-color="#55D4D9" />
                     <stop offset="1" stop-color="#7700DF" />
                 </linearGradient>
                 <clipPath id="clip0_1028_372">

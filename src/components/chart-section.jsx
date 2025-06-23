@@ -50,7 +50,7 @@ export default function ChartSection() {
             heading: "OXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             para: "Contract Address",
             buy:"Buy Now",
-            class:"button2 font2 px-10 py-2 w-fit rounded-lg text-black text-xl block",
+            class:"button1 font2 px-10 py-2 w-fit rounded-lg text-black text-xl block",
             link:"",
         },
         {

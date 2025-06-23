@@ -72,7 +72,7 @@ export default function Navbar() {
           </a>
 
           <a href='#'>
-            <button className='px-10 py-2 button2 rounded-full text-lg'>
+            <button className='px-10 py-2 button1 rounded-full text-lg'>
            Buy Now
             </button>
           </a>

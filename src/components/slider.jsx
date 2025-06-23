@@ -67,7 +67,7 @@ const textVariant = {
 export default function Slider() {
     return (
         <div className="p-5 max-w-7xl mx-auto mt-[10vw]">
-            <h3 className='text-[#EE7C2C] text-center'>[ Core analysis]</h3>
+            <h3 className='text-[#55D4D9] text-center'>[ Core analysis]</h3>
             <motion.h1
                 variants={ textVariant }
                 custom={ 1 }

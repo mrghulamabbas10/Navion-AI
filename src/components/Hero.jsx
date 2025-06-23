@@ -72,7 +72,7 @@ export default function Hero() {
             initial="hidden"
             whileInView="visible"
             viewport={ { once: true } }
-            className="button2 font2 px-10 py-3 rounded-lg text-black md:text-xl text-sm"
+            className="button1 font2 px-10 py-3 rounded-lg text-black md:text-xl text-sm"
           >
             Get Started
           </motion.button>

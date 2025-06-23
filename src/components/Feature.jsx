@@ -122,7 +122,7 @@ export default function Feature() {
             className="absolute bottom-0 right-0"
           />
 
-          <h3 className="text-[#EE7C2C]">[ABOUT NAVION AI ]</h3>
+          <h3 className="text-[#55D4D9]">[ABOUT NAVION AI ]</h3>
           <motion.h1
             variants={textVariant}
             custom={1}
@@ -207,7 +207,7 @@ export default function Feature() {
             alt=""
             className="absolute bottom-0 right-0"
           />
-          <h3 className="text-[#EE7C2C]">[ Development ]</h3>
+          <h3 className="text-[#55D4D9]">[ Development ]</h3>
           <motion.h1
             variants={textVariant}
             custom={1}
@@ -296,7 +296,7 @@ export default function Feature() {
             alt=""
             className="absolute bottom-0 right-0"
           />
-          <h3 className="text-[#EE7C2C]">[ Security ]</h3>
+          <h3 className="text-[#55D4D9]">[ Security ]</h3>
           <motion.h1
             variants={textVariant}
             custom={1}

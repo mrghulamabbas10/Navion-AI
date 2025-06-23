@@ -151,7 +151,7 @@ export default function DeploymentMain() {
                         </div>
                         <div>
                             <a href='#'>
-                                <button className='px-10 py-2 button2 rounded-full text-lg'>
+                                <button className='px-10 py-2 button1 rounded-full text-lg'>
                                     Connect Wallet
                                 </button>
                             </a>
