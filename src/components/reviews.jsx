@@ -73,10 +73,10 @@ export default function NavionAISection() {
                 style={ { y } }
             />
             {/* Glowing Circle */ }
-            <div className="absolute w-64 h-64 md:w-80 md:h-80 rounded-full right-[10vw] bg-gradient-to-tr  from-[#FF6F6F] via-[#FF983C] to-[#D60AFF] blur-3xl opacity-30 z-0" />
+            <div className="absolute w-64 h-64 md:w-80 md:h-80 rounded-full right-[10vw] bg-gradient-to-tr  from-[#1f8ebe] via-[#1f8ebe] to-[#D60AFF] blur-3xl opacity-30 z-0" />
             <div className="flex items-center md:text-start text-center md:justify-between md:flex-row flex-col gap-3 justify-center my-16 ">
                 <div>
-                    <p className="text-sm text-orange-500 uppercase mb-2 tracking-wide">
+                    <p className="text-sm text-[#1f8ebe] uppercase mb-2 tracking-wide">
                         { `[ what we plan ahead ]` }
                     </p>
                     <h2 className="text-2xl md:text-4xl mb-6 gradient-text font2">
