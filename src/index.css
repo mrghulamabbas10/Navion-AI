@@ -23,7 +23,7 @@
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: linear-gradient(90deg, #ee7c2c, #7700df);
+  background: linear-gradient(90deg, #55D4D9, #7700df);
   border-radius: inherit;
   z-index: -1;
   transition: opacity 0.4s ease;
@@ -44,8 +44,8 @@
 
 /* Hover Effects (keep yours as-is or enhance) */
 .btn:hover {
-  background: linear-gradient(0deg, #ee7c2c, #7700df);
-  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 1px #ee7c2c,
+  background: linear-gradient(0deg, #55D4D9, #7700df);
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 1px #55D4D9,
     0px 0px 180px 0px #9917ff;
   transform: translateY(-2px);
 }
